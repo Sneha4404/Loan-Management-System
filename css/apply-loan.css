@@ -1,0 +1,129 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body{
+    background:#f4f7fc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+/* Container */
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+/* Loan Form */
+
+.loan-form{
+    width:500px;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+
+.loan-form h1{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:30px;
+}
+
+/* Labels */
+
+.loan-form label{
+    display:block;
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom:8px;
+    color:#333;
+}
+
+/* Inputs */
+
+.loan-form input,
+.loan-form select,
+.loan-form textarea{
+
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline:none;
+    font-size:15px;
+    transition:0.3s;
+}
+
+/* Textarea */
+
+.loan-form textarea{
+    resize:none;
+    height:120px;
+}
+
+/* Focus Effect */
+
+.loan-form input:focus,
+.loan-form select:focus,
+.loan-form textarea:focus{
+
+    border-color:#2563eb;
+    box-shadow:0 0 5px rgba(37,99,235,.3);
+}
+
+/* Button */
+
+.loan-form button{
+
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+
+    background:#2563eb;
+    color:white;
+
+    border:none;
+    border-radius:8px;
+
+    font-size:17px;
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+/* Hover */
+
+.loan-form button:hover{
+
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .loan-form{
+
+        width:100%;
+        padding:25px;
+
+    }
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+    <h2>🏦 LMS</h2>
+
+    <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="apply-loan.html">Apply Loan</a></li>
+        <li><a href="my-loans.html">My Loans</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html">Logout</a></li>
+    </ul>
+
+</div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <header>
+            <h1>Dashboard</h1>
+            <p>Welcome Back, Sneha 👋</p>
+        </header>
+
+        <!-- Dashboard Cards -->
+        <!-- Dashboard Cards -->
+         <div class="cards">
+            
+            <div class="card">
+                <h3>Total Loans</h3>
+                <h2 id="totalLoans">0</h2>
+            </div>
+            
+            <div class="card">
+                <h3>Pending Loans</h3>
+                <h2 id="pendingLoans">0</h2>
+            </div>
+            
+            <div class="card">
+                <h3>Total Loan Amount</h3>
+                <h2 id="totalAmount">₹0</h2>
+            </div>
+        
+        </div>
+
+        <!-- Recent Loans Table -->
+        <div class="recent-loans">
+
+            <h2>Recent Loans</h2>
+
+            <table>
+
+                <tr>
+                    <th>Loan ID</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+                
+                <tbody id="recentLoans">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>

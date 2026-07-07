@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Loan</title>
+
+    <link rel="stylesheet" href="css/apply-loan.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="loan-form">
+
+        <h1>Apply for a Loan</h1>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter your full name">
+            
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            
+            <label>Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+
+         <label>Loan Type</label>
+         <select id="loanType">
+            <option>Personal Loan</option>
+            <option>Home Loan</option>
+            <option>Education Loan</option>
+            <option>Vehicle Loan</option>
+        </select>
+        
+        <label>Loan Amount</label>
+        <input type="number" id="loanAmount" placeholder="Enter amount">
+        
+        <label>Loan Duration (Months)</label>
+        <input type="number" id="loanDuration" placeholder="Enter duration">
+        
+        <label>Annual Income</label>
+        <input type="number" id="annualIncome" placeholder="Enter annual income">
+        
+        <label>Purpose of Loan</label>
+        <textarea id="purpose" placeholder="Why do you need this loan?"></textarea>
+            
+
+            <button type="submit">
+                Apply Loan
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="js/apply-loan.js"></script>
+
+</body>
+</html>
